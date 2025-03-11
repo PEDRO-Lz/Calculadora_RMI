@@ -16,16 +16,16 @@ Como Executar
 
 Compile os arquivos Java:
 
-javac Interface.java Server.java Client.java
+>> javac Interface.java Server.java Client.java
 
 Inicie o registro RMI:
 
-rmiregistry &
+>> rmiregistry &
 
 Inicie o servidor:
 
-java Server
+>> java Server
 
 Execute o cliente para interagir com o servidor:
 
-java Client
+>> java Client
